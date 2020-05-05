@@ -23,7 +23,7 @@
 <tr>
 <td>
 <div class="infoBox" id="tests">
-<div class="counter">17</div>
+<div class="counter">23</div>
 <p>tests</p>
 </div>
 </td>
@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.076s</div>
+<div class="counter">0.108s</div>
 <p>duration</p>
 </div>
 </td>
@@ -63,6 +63,9 @@
 <li>
 <a href="#tab0">Tests</a>
 </li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
 </ul>
 <div id="tab0" class="tab">
 <h2>Tests</h2>
@@ -82,45 +85,15 @@
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">[1] 1.1, 2, 3.1</td>
-<td class="success">addDouble(ArgumentsAccessor)[1]</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">[2] 0.0, 2, 2.0</td>
-<td class="success">addDouble(ArgumentsAccessor)[2]</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">[3] -1.1, 2.2, 1.1</td>
-<td class="success">addDouble(ArgumentsAccessor)[3]</td>
-<td class="success">0.002s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">[4] -1, -1, -2</td>
-<td class="success">addDouble(ArgumentsAccessor)[4]</td>
-<td class="success">0.002s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">addInt()</td>
-<td class="success">addInt()</td>
-<td class="success">0.002s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
 <td class="success">[1] 1, 2, 3</td>
 <td class="success">addInt(ArgumentsAccessor)[1]</td>
-<td class="success">0.039s</td>
+<td class="success">0.038s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">[2] 0, 2, 2</td>
 <td class="success">addInt(ArgumentsAccessor)[2]</td>
-<td class="success">0.001s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -132,7 +105,31 @@
 <tr>
 <td class="success">[4] -1, -1, -2</td>
 <td class="success">addInt(ArgumentsAccessor)[4]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[5] 1.1, 2, 3.1</td>
+<td class="success">addInt(ArgumentsAccessor)[5]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[6] 0.0, 2, 2.0</td>
+<td class="success">addInt(ArgumentsAccessor)[6]</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[7] -1.1, 2.2, 1.1</td>
+<td class="success">addInt(ArgumentsAccessor)[7]</td>
 <td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[8] -1, -1, -2</td>
+<td class="success">addInt(ArgumentsAccessor)[8]</td>
+<td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
@@ -144,40 +141,98 @@
 <tr>
 <td class="success">divDouble()</td>
 <td class="success">divDouble()</td>
+<td class="success">0.006s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">multiDouble()</td>
+<td class="success">multiDouble()</td>
+<td class="success">0.001s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] 5.01+k23</td>
+<td class="success">schoulThrowError(ArgumentsAccessor)[1]</td>
 <td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">divInt()</td>
-<td class="success">divInt()</td>
+<td class="success">[2] 5.01-2.j0</td>
+<td class="success">schoulThrowError(ArgumentsAccessor)[2]</td>
 <td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">multiDouble()</td>
-<td class="success">multiDouble()</td>
+<td class="success">[3] +23</td>
+<td class="success">schoulThrowError(ArgumentsAccessor)[3]</td>
 <td class="success">0.001s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
-<td class="success">multiInt()</td>
-<td class="success">multiInt()</td>
-<td class="success">0.001s</td>
+<td class="success">[1] 12--2</td>
+<td class="success">schoulThrowErrorOutOfBounce(ArgumentsAccessor)[1]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] 12*-2</td>
+<td class="success">schoulThrowErrorOutOfBounce(ArgumentsAccessor)[2]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[1] 5.01+2.000, 7.01</td>
+<td class="success">shouldTakeUserInput(ArgumentsAccessor)[1]</td>
+<td class="success">0.017s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[2] 5.01-2.000, 3.01</td>
+<td class="success">shouldTakeUserInput(ArgumentsAccessor)[2]</td>
+<td class="success">0.003s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[3] 5.01/2.000, 2.505</td>
+<td class="success">shouldTakeUserInput(ArgumentsAccessor)[3]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[4] 5.01*2.000, 10.02</td>
+<td class="success">shouldTakeUserInput(ArgumentsAccessor)[4]</td>
+<td class="success">0.002s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">[5] 12+-2, 10.0</td>
+<td class="success">shouldTakeUserInput(ArgumentsAccessor)[5]</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 <tr>
 <td class="success">subDouble()</td>
 <td class="success">subDouble()</td>
-<td class="success">0.001s</td>
-<td class="success">passed</td>
-</tr>
-<tr>
-<td class="success">subInt()</td>
-<td class="success">subInt()</td>
-<td class="success">0.001s</td>
+<td class="success">0.002s</td>
 <td class="success">passed</td>
 </tr>
 </table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>Bitte geben Sie ein String in form von '1+2' an:
+Bitte geben Sie ein String in form von '1+2' an:
+Bitte geben Sie ein String in form von '1+2' an:
+Bitte geben Sie ein String in form von '1+2' an:
+Bitte geben Sie ein String in form von '1+2' an:
+Bitte geben Sie ein String in form von '1+2' an:
+Bitte geben Sie ein String in form von '1+2' an:
+Bitte geben Sie ein String in form von '1+2' an:
+Bitte geben Sie ein String in form von '1+2' an:
+Bitte geben Sie ein String in form von '1+2' an:
+</pre>
+</span>
 </div>
 </div>
 <div id="footer">
@@ -187,7 +242,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 6.1</a> at 05.05.2020, 19:10:02</p>
+<a href="http://www.gradle.org">Gradle 6.1</a> at 05.05.2020, 21:04:09</p>
 </div>
 </div>
 </body>
