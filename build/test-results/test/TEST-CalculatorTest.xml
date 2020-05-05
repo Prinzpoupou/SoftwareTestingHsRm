@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CalculatorTest" tests="17" skipped="0" failures="0" errors="0" timestamp="2020-05-05T17:10:02" hostname="puri-IdeaPadS340" time="0.226">
+  <properties/>
+  <testcase name="constructor()" classname="CalculatorTest" time="0.017"/>
+  <testcase name="addInt()" classname="CalculatorTest" time="0.002"/>
+  <testcase name="addInt(ArgumentsAccessor)[1]" classname="CalculatorTest" time="0.039"/>
+  <testcase name="addInt(ArgumentsAccessor)[2]" classname="CalculatorTest" time="0.001"/>
+  <testcase name="addInt(ArgumentsAccessor)[3]" classname="CalculatorTest" time="0.001"/>
+  <testcase name="addInt(ArgumentsAccessor)[4]" classname="CalculatorTest" time="0.002"/>
+  <testcase name="divInt()" classname="CalculatorTest" time="0.001"/>
+  <testcase name="subInt()" classname="CalculatorTest" time="0.001"/>
+  <testcase name="subDouble()" classname="CalculatorTest" time="0.001"/>
+  <testcase name="multiDouble()" classname="CalculatorTest" time="0.001"/>
+  <testcase name="addDouble()" classname="CalculatorTest" time="0.001"/>
+  <testcase name="addDouble(ArgumentsAccessor)[1]" classname="CalculatorTest" time="0.001"/>
+  <testcase name="addDouble(ArgumentsAccessor)[2]" classname="CalculatorTest" time="0.001"/>
+  <testcase name="addDouble(ArgumentsAccessor)[3]" classname="CalculatorTest" time="0.002"/>
+  <testcase name="addDouble(ArgumentsAccessor)[4]" classname="CalculatorTest" time="0.002"/>
+  <testcase name="multiInt()" classname="CalculatorTest" time="0.001"/>
+  <testcase name="divDouble()" classname="CalculatorTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
