@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="test.LoginTest" tests="4" skipped="0" failures="0" errors="0" timestamp="2020-05-12T01:55:43" hostname="puri-IdeaPadS340" time="11.097">
+  <properties/>
+  <testcase name="LoginWithWrongValues" classname="test.LoginTest" time="4.935"/>
+  <testcase name="LoginWithWrongPassword" classname="test.LoginTest" time="2.361"/>
+  <testcase name="LoginWithCorrectValues" classname="test.LoginTest" time="1.468"/>
+  <testcase name="LoginWithWrongUsername" classname="test.LoginTest" time="2.332"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 81.0.4044.138 (8c6c7ba89cc9453625af54f11fd83179e23450fa-refs/branch-heads/4044@{#999}) on port 12337
+Only local connections are allowed.
+Please protect ports used by ChromeDriver and related test frameworks to prevent access by malicious code.
+Mai 12, 2020 3:55:45 VORM. org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMATION: Detected dialect: W3C
+[1589248546,469][SEVERE]: Timed out receiving message from renderer: 0,100
+[1589248546,571][SEVERE]: Timed out receiving message from renderer: 0,100
+[1589248546,673][SEVERE]: Timed out receiving message from renderer: 0,100
+[1589248546,774][SEVERE]: Timed out receiving message from renderer: 0,100
+[1589248547,039][SEVERE]: Timed out receiving message from renderer: 0,100
+[1589248547,140][SEVERE]: Timed out receiving message from renderer: 0,100
+[1589248547,484][SEVERE]: Timed out receiving message from renderer: 0,100
+]]></system-err>
+</testsuite>
